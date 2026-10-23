@@ -4,7 +4,7 @@
 
 // ============== GAS SENSOR ==============
 constexpr uint8_t GAS_SENSOR_PIN = A0;
-constexpr int GAS_THRESHOLD = 400;
+constexpr int GAS_THRESHOLD = 240;
 constexpr uint8_t WARNING_LED_PIN = 12;  // D6 / GPIO12
 
 // ============== RAIN SENSOR ==============
@@ -16,7 +16,7 @@ constexpr uint8_t GAS_SERVO_PIN = 14;    // D5 / GPIO14
 constexpr uint8_t RAIN_SERVO_PIN = 4;    // D2 / GPIO4
 
 constexpr int GAS_WINDOW_CLOSED = 0;
-constexpr int GAS_WINDOW_OPEN = 90;
+constexpr int GAS_WINDOW_OPEN = 180;
 constexpr int RAIN_SERVO_HOME = 0;
 constexpr int RAIN_SERVO_ACTIVE = 180;
 
